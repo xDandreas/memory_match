@@ -11,7 +11,6 @@ void main() {
 bool win = false;
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -120,6 +119,8 @@ class MatchGame extends StatefulWidget {
 class _MatchGameState extends State<MatchGame> {
   List<GlobalKey<FlipCardState>> cardStateKeys = [];
   List<bool> cardFlips = [];
+
+  //Image Pairs
   List<String> data = [
     'https://pbs.twimg.com/profile_images/1053055123193122816/IUwo6l_Q_400x400.jpg',
     'https://pbs.twimg.com/profile_images/1053055123193122816/IUwo6l_Q_400x400.jpg',
